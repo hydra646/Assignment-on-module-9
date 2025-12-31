@@ -1,6 +1,6 @@
 Part A: 
 
-2) Relational schema (tables, PKs, FKs)
+--2) Relational schema (tables, PKs, FKs)
 
 SubscriptionPlan(plan_id PK, plan_name, price, duration, features)
 Vendor(vendor_id PK, plan_id FK→SubscriptionPlan.plan_id, business_name, contact_person, email, phone, address)
